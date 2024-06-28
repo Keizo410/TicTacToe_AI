@@ -10,9 +10,7 @@ This is a simple __*console*__ based TicTocToe game. You can play with ___Minima
 
 To run this project using Docker, follow the steps below:
 
-### Step 1: Clone the Repository
-
-Clone this repository to your local machine:
+### Clone the Repository and run docker commands
 
 ```sh
 git clone https://github.com/Keizo410/TicTacToe_AI.git
