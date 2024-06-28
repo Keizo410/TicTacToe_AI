@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
@@ -14,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class Minimax_Algorithm_Test {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
    
         boolean gameDone = false;
         TicTacToe game = new TicTacToe();
