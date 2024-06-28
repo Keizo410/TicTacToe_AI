@@ -2,6 +2,24 @@
 __Hello!__
 This is a simple __*console*__ based TicTocToe game. You can play with ___Minimax Algorithm AI___.
 
+## Prerequisites
+
+- Docker
+
+## Running the Project
+
+To run this project using Docker, follow the steps below:
+
+### Step 1: Clone the Repository
+
+Clone this repository to your local machine:
+
+```sh
+git clone https://github.com/Keizo410/TicTacToe_AI.git
+cd tictactoe
+docker build -t tictactoe .
+docker run -it --rm tictactoe
+
 ## Implementation
 
 ### How to calculate Heuristics: 
