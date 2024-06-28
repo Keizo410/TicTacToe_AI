@@ -7,8 +7,8 @@ This is a simple __*console*__ based TicTocToe game. You can play with ___Minima
 ### How to calculate Heuristics: 
 Thanks to the simplicity and limited state space of this game nature, heuristics is simple enough to be calculated just based on either __win__ or __lose__. 
 If we won, +10. Tie means 0. Lose -10. 
-[https://github.com/Keizo410/Minimax_Algorithm_TicTocToe/blob/8b6792e73abead614d7af70060f910f3294f49e6/src/main/java/main/minimax_algorithm_test/Player_AI.java#L20-L30
-](https://github.com/Keizo410/TicTacToe_AI/blob/8c17966b8012c3d6084abc9ec094d2bbb82f785f/Player_AI.java#L17-L27)
+
+https://github.com/Keizo410/TicTacToe_AI/blob/8c17966b8012c3d6084abc9ec094d2bbb82f785f/Player_AI.java#L17-L27
 
 ### How to initiate the minimax algorithm:
 This method is sometimes called __decision__ function, which literally decides which action to be taken for AI player side.
