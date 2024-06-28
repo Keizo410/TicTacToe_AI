@@ -2,7 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package main.minimax_algorithm_test;
 
 /**
  *
@@ -26,7 +25,7 @@ public class Player_AI {
         return score;
     }
 
-    public int[] bestmove(TicTacPho game) {
+    public int[] bestmove(TicTacToe game) {
         int bestscore = (int) Double.NEGATIVE_INFINITY;
         int[] bestmove = null;
 
@@ -54,7 +53,7 @@ public class Player_AI {
         return bestmove;
     }
 
-    public int minimax(TicTacPho game, int depth, boolean isMaximizing) {
+    public int minimax(TicTacToe game, int depth, boolean isMaximizing) {
         String result = game.checkWinner(game.board);
         int score;
         if (result != null) {

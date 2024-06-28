@@ -2,7 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package main.minimax_algorithm_test;
 
 import java.util.ArrayList;
 
@@ -17,7 +16,7 @@ public class TicTacToe {
     String player2;
     String turn;
     //Constructor for game initializaiton    
-    TicTacPho(){
+    TicTacToe(){
         this.player1 = " X ";
         this.player2 = " O ";
         //initialize the board
