@@ -19,8 +19,9 @@ https://github.com/Keizo410/TicTacToe_AI/blob/1711fb49a030dba82c5dccad4cc1e2ad7e
 There are several ways to implement minmax algorithm. Some people creates __2 different function min and max__ for simulating the state each other. For this implementation,
 I used __isMaximizing__ parameter to identify which player's turn this is. 
 **Important: You have to adjust the decision, heuristics, recusive call parameters depend on which player is responsible for the FIRST move. If this was not properly implemented, AI player chooses self-destructive move.**
-On this implementation, AI is assumed to be the first move player, which means isMaximizing should be set to be __FALSE__ in the __decision method__ above as we start simulating the second player's move. (Confusing)
-https://github.com/Keizo410/Minimax_Algorithm_TicTocToe/blob/8cb64ac02b57c154a213c13682873ca7809ead35/src/main/java/main/minimax_algorithm_test/Player_AI.java#L61-L99
+On this implementation, AI is assumed to be the first move player, which means isMaximizing should be set to be __FALSE__ in the __decision method__ above as we start simulating the second player's move. 
+
+https://github.com/Keizo410/TicTacToe_AI/blob/ab1003e041030351b850bc597602a75f6567fa9b/Player_AI.java#L57-L95
 
 These state space search AI for game playing is heavily based on ***how the game is implemented***. TicTacToe is fairly simple and fun to program for beginners like me:)
 
