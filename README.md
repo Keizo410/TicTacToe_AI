@@ -13,8 +13,7 @@ https://github.com/Keizo410/TicTacToe_AI/blob/8c17966b8012c3d6084abc9ec094d2bbb8
 ### How to initiate the minimax algorithm:
 This method is sometimes called __decision__ function, which literally decides which action to be taken for AI player side.
 
-https://github.com/Keizo410/Minimax_Algorithm_TicTocToe/blob/b517e77ac8142ef39f941b55f8636ebebeff1186/src/main/java/main/minimax_algorithm_test/Player_AI.java#L33-L58
-
+https://github.com/Keizo410/TicTacToe_AI/blob/1711fb49a030dba82c5dccad4cc1e2ad7ed03ba1/Player_AI.java#L29-L55
 
 ### How MinMax algorithm Works:
 There are several ways to implement minmax algorithm. Some people creates __2 different function min and max__ for simulating the state each other. For this implementation,
