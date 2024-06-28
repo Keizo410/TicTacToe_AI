@@ -20,6 +20,8 @@ cd tictactoe
 docker build -t tictactoe .
 docker run -it --rm tictactoe
 
+```
+
 ## Implementation
 
 ### How to calculate Heuristics: 
